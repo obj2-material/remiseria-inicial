@@ -12,6 +12,25 @@ public class Remiseria {
 	
 	public void quitarDeFlota(Vehiculo veh) { flota.remove(veh); }
 
+	
+	/**
+	 * El peso total contando todos los vehiculos en la flota 
+	 */
+	public int pesoTotalFlota() {
+		return this.flota.stream().mapToInt(veh -> veh.getPeso()).sum();
+	}
+	
+	/**
+	 * El peso total contando todos los vehiculos en la flota - implementación al estilo Java 7 
+	 */
+	public int pesoTotalFlota_Java7() {
+		int pesoTotal = 0;
+		for (Vehiculo vehiculo : flota) {
+			pesoTotal += vehiculo.getPeso();
+		}
+		return pesoTotal;
+	}
+
 	/**
 	 * Indica si esta remiseria es o no recomendable 
 	 */
