@@ -1,5 +1,5 @@
 package ar.edu.unq.tpi.remiseria;
 
-public enum Color {
+public enum Tonalidad {
 	NEGRO, AZUL, ROJO, VERDE, AMARILLO, BLANCO, BEIGE
 }

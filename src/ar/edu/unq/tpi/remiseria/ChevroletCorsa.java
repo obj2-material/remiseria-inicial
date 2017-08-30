@@ -2,9 +2,9 @@ package ar.edu.unq.tpi.remiseria;
 
 public abstract class ChevroletCorsa implements Vehiculo {
 
-	private Color color;
+	private Tonalidad color;
 	
-	public ChevroletCorsa(Color color) {
+	public ChevroletCorsa(Tonalidad color) {
 		super();
 		this.color = color;
 	}
@@ -16,7 +16,7 @@ public abstract class ChevroletCorsa implements Vehiculo {
 	public int getPeso() { return 1300; }
 
 	@Override
-	public Color getColor() { return this.color; }
-	public void setColor(Color unColor) { this.color = unColor; }	
+	public Tonalidad getColor() { return this.color; }
+	public void setColor(Tonalidad unColor) { this.color = unColor; }	
 
 }

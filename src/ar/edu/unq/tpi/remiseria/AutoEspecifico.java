@@ -5,10 +5,10 @@ public class AutoEspecifico implements Vehiculo {
 	private int capacidad;
 	private int velocidadMaxima;
 	private int peso;
-	private Color color;
+	private Tonalidad color;
 
 	
-	public AutoEspecifico(int capacidad, int velocidadMaxima, int peso, Color color) {
+	public AutoEspecifico(int capacidad, int velocidadMaxima, int peso, Tonalidad color) {
 		super();
 		this.capacidad = capacidad;
 		this.velocidadMaxima = velocidadMaxima;
@@ -29,7 +29,7 @@ public class AutoEspecifico implements Vehiculo {
 	public void setPeso(int elPeso) { this.peso = elPeso; }
 
 	@Override
-	public Color getColor() { return this.color; }
-	public void setColor(Color unColor) { this.color = unColor; }
+	public Tonalidad getColor() { return this.color; }
+	public void setColor(Tonalidad unColor) { this.color = unColor; }
 
 }

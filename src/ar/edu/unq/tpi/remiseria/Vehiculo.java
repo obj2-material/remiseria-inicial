@@ -8,5 +8,5 @@ public interface Vehiculo {
 	
 	public int getPeso();
 	
-	public Color getColor();
+	public Tonalidad getColor();
 }

@@ -79,7 +79,7 @@ public class Remiseria {
 	/**
 	 * Devuelve el color del auto más rápido de esta remisería.
 	 */
-	public Color colorDelAutoMasRapido() {
+	public Tonalidad colorDelAutoMasRapido() {
 		Vehiculo autoMasRapido = this.getAutoMasRapido();
 		return autoMasRapido.getColor();
 	}

@@ -25,6 +25,8 @@ public class AutoStandardAGas implements Vehiculo {
 	}
 
 	@Override
-	public Color getColor() { return Color.AZUL; }
+	public Tonalidad getColor() { return Tonalidad.AZUL; }
+	
+	public boolean isConTanqueAdicional() { return this.tieneTanqueAdicional; }
 
 }

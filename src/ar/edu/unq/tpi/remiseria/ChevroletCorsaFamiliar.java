@@ -2,7 +2,7 @@ package ar.edu.unq.tpi.remiseria;
 
 public class ChevroletCorsaFamiliar extends ChevroletCorsa {
 
-	public ChevroletCorsaFamiliar(Color color) { super(color); }
+	public ChevroletCorsaFamiliar(Tonalidad color) { super(color); }
 
 	@Override
 	public int getVelocidadMaxima() { return 130; }
