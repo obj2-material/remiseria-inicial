@@ -1,4 +1,4 @@
-package ar.edu.unq.tpi.remiseria;
+package ar.edu.unq.tpi.remiseria.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -8,6 +8,13 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.junit.Test;
+
+import ar.edu.unq.tpi.remiseria.AutoEspecifico;
+import ar.edu.unq.tpi.remiseria.AutoStandardAGas;
+import ar.edu.unq.tpi.remiseria.ChevroletCorsaGasolero;
+import ar.edu.unq.tpi.remiseria.ChevroletCorsaNaftero;
+import ar.edu.unq.tpi.remiseria.Tonalidad;
+import ar.edu.unq.tpi.remiseria.Vehiculo;
 
 public class JuegosConColecciones {
 
